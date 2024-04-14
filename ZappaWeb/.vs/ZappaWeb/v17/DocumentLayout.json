@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\account\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\account\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\account\\update.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\account\\update.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\account\\profile.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\account\\profile.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\account\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\account\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|c:\\users\\zlams\\source\\asp.net core razor pages\\zappaweb\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE5E858F-BFEC-4FCD-8754-1B878AF01169}|ZappaWeb.csproj|solutionrelative:pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Update.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Account\\Update.cshtml.css",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Update.cshtml.css",
+              "RelativeToolTip": "Pages\\Account\\Update.cshtml.css",
+              "ViewState": "AQIAADoAAAAAAAAAAAAUwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T15:40:08.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Account\\Profile.cshtml.css",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml.css",
+              "RelativeToolTip": "Pages\\Account\\Profile.cshtml.css",
+              "ViewState": "AQIAADoAAAAAAAAAAAAUwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T13:57:58.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:27:57.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\Category.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Model\\Category.cs",
+              "RelativeToolTip": "Model\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:50:14.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Account\\Profile.cshtml.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml.cs",
+              "RelativeToolTip": "Pages\\Account\\Profile.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:19:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Update.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Account\\Update.cshtml",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Update.cshtml",
+              "RelativeToolTip": "Pages\\Account\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T13:57:50.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Pages\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:10:01.509Z",
+              "WhenOpened": "2024-04-14T07:51:27.611Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T09:27:28.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T09:29:57.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T09:27:54.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Razor Pages\\ZappaWeb\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Categories\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:08:00.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

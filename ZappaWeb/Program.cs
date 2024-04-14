@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ZappaWeb.Data;
+using Auth0.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,17 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+builder.Services
+    .AddAuth0WebAppAuthentication(options => {
+        options.Domain = builder.Configuration["Auth0:Domain"];
+        options.ClientId = builder.Configuration["Auth0:ClientId"];
+    });
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizePage("/Categories");
+    options.Conventions.AuthorizePage("/Account/Logout");
+    options.Conventions.AuthorizePage("/Account/Profile");
+});
 
 var app = builder.Build();
 
@@ -23,6 +35,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

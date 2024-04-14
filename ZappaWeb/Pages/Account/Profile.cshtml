@@ -1,0 +1,52 @@
+﻿@page
+@model ZappaWeb.Pages.Account.ProfileModel
+@{
+    ViewData["Title"] = "Your Profile";
+}
+
+@* <div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <h2>@ViewData["Title"].</h2>
+
+            <div class="col-md-2">
+                <img src="@Model.UserProfileImage"
+                     alt="" class="img-rounded img-responsive" />
+            </div>
+            <div class="col-md-4">
+                <h3>@Model.UserName</h3>
+                <p>
+                    <i class="glyphicon glyphicon-envelope"></i> @Model.UserEmailAddress
+                </p>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<div class="main-block">
+    <div class="left-part">
+        <img src="@Model.UserProfileImage" alt="John" style="width:50%">
+    </div>
+    <form>
+        <div class="title">
+      
+            <h2>Your Details</h2>
+        </div>
+        <div class="info">
+            <input class="fname" type="text" name="name" placeholder="@Model.UserName" readonly>
+            <input type="text" name="name" placeholder="Your Workplace" readonly>
+            <input type="text" name="name" placeholder="Your Phone number" readonly>
+            <input type="text" name="name" placeholder="Your University" readonly>
+            <input type="text" name="name" placeholder="Your Profile Link" readonly>
+        </div>
+        <button>
+            <a asp-page="update" class="text text-light">
+                <i class="bi bi-pencil"></i> &nbsp;
+                Update Profile
+            </a>
+        </button>
+    </form>
+</div>
+  
