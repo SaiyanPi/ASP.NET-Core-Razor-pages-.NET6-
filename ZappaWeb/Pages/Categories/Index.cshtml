@@ -1,0 +1,80 @@
+﻿@page
+@model ZappaWeb.Pages.Categories.IndexModel
+
+@*
+@* success pop-up 
+@if(TempData["vayo"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> @* jquery from the bottom of layout file 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> @* link from 'toaster js' 
+    <script type="text/javascript">
+        toastr.success('@TempData["vayo"]')
+    </script>
+    @* for built-in message 
+    @* <h2 class="bg-success text-center">@TempData["vayo"]</h2> 
+}
+@* error pop-up
+@if (TempData["vayena"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> @* jquery from the bottom of layout file
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> @* link from 'toaster js' 
+    <script type="text/javascript">
+        toastr.error('@TempData["vayena"]')
+    </script>
+   
+}
+*@
+@*
+    Instead of using above method where i have to edit each file in future which might use this notification/pop-up
+    feature, i simply only have to edit the seperate single razor view file(_Notification) and link like below
+    using partial tag where i need.
+*@
+@* <partial name="_Notification" /> *@
+@*
+    Again what if we need to use this notification feature all across the pages? do i have to add the _Notification Razor
+view file in all pages like above? No! for this scenario it is wise to add the tag in the _Layout file. Why? see _Layout file.
+*@
+
+<div class = "container P-3">
+    <div action="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Category List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-page="create" class="btn btn-primary" >
+                <i class="bi bi-plus-circle"></i> &nbsp;
+                Create New Category
+            </a>
+        </div>
+    </div>
+    <br />  
+    
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th style="background-color:darkgrey">Category Name</th>
+                <th style="background-color:darkgrey">Display Order</th>
+                <th style="background-color:darkgrey">Operation</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var obj in Model.Caategories)
+            {
+                <tr>
+                    <td width="50%">@obj.Name</td>
+                    <td width="40%">@obj.DisplayOrder</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-page="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-1">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <a asp-page="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-1">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </div>  
+                    </td>
+                </tr>
+            }  
+        </tbody>
+    </table>
+</div>
